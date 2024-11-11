@@ -23,8 +23,8 @@ header {
     width: 100%;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 10px; /* Add margin to create space between header and breaking news */
-    font-size: 20px; /* Adjust the size as needed */
+    margin-bottom: 10px; 
+    font-size: 20px; 
 }
 
 .breaking_news {
@@ -43,7 +43,7 @@ header {
 }
 
 .newsFont {
-    animation: slidein 15s linear infinite; /* Adjust duration for speed */
+    animation: slidein 15s linear infinite; 
     font-size: larger;
 }
 
@@ -93,7 +93,7 @@ article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px; /* Adjust spacing between images */
+    gap: 5px; 
     background-color: #8eabe1;
     padding: 10px;
     border-radius: 1px;
@@ -101,8 +101,8 @@ article {
 }
 
 .infoBox {
-    width: 180px; /* Slightly larger size for images */
-    height: 180px; /* Slightly larger size for images */
+    width: 180px; 
+    height: 180px;
     position: relative;
     border-radius: 15px;
     border: 5px solid #0a3459;
